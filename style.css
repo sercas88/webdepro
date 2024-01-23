@@ -1,8 +1,4 @@
 body{
-    /* background: linear-gradient(180deg, #ffffff3f, #99a4a6, #ffffff);
-    background-size: 130% 400%;
-    animation: gradient 10s ease infinite;
-    height: 100vh; */
     background: #FFD369;
 }
 .fs-4{
@@ -11,20 +7,20 @@ body{
 }
 h1{
     font-family: 'Montserrat', sans-serif;
+    filter: drop-shadow(5px 15px 15px #393E46);
     color: #222831;
-    position: relative;
     background-image: linear-gradient(
-        45deg,
-        #222831 0%,
+        -225deg,
+        #EEEEEE 0%,
         #393E46 29%,
-        #F45050 67%,
-        #222831 100%
+        #393E46 67%,
+        #EEEEEE 100%
       );
     background-clip: border-box;
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textclip 5s linear infinite;
+    animation: textclip 10s linear infinite;
 }
 @keyframes textclip {
     to {
@@ -47,18 +43,18 @@ h2{
 .slogan{
     color: #393E46;
 }
-.top{
+/* .top{
     display: grid;
     place-items: center;
-}
-#hero{
-
-}
+} */
 #about{
     background-color: #EEEEEE;
 }
 .card{
     background-color: #393E46;
+    filter: drop-shadow(5px 5px 5px #222831);
+    border-color: #EEEEEE50;
+    border-width: 1px;
 }
 #pricing{
     background-color: #EEEEEE;
@@ -66,5 +62,16 @@ h2{
 .pricing-card{
     background-color: #EEEEEE;
     border-color: #393E46;
-    border-width: 3px;
+    border-width: 1px;
+}
+.plan{
+    color: #8b8f94;;
+}
+.fixed-top{
+    background: #FFD369;
+}
+@media only screen and (min-width: 900px) {
+    #hero {
+      margin-top: 180px;
+    }
 }
