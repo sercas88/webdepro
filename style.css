@@ -1,0 +1,70 @@
+body{
+    /* background: linear-gradient(180deg, #ffffff3f, #99a4a6, #ffffff);
+    background-size: 130% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh; */
+    background: #FFD369;
+}
+.fs-4{
+    font-weight: bold;
+    color: #222831;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #222831;
+    position: relative;
+    background-image: linear-gradient(
+        45deg,
+        #0F0F0F 0%,
+        #232D3F 29%,
+        #005B41 67%,
+        #0F0F0F 100%
+      );
+    background-clip: border-box;
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 5s linear infinite;
+}
+@keyframes textclip {
+    to {
+    background-position: 200% center;
+    }
+}
+h2{
+    color: #222831;
+}
+.display-1 {
+    font-size: 10rem;
+}
+.nav-link{
+    color: #393E46;
+    font-size: small;
+}
+.card-link{
+    color: #FFD369;
+}
+.slogan{
+    color: #393E46;
+}
+.top{
+    display: grid;
+    place-items: center;
+}
+#hero{
+
+}
+#about{
+    background-color: #EEEEEE;
+}
+.card{
+    background-color: #393E46;
+}
+#pricing{
+    background-color: #EEEEEE;
+}
+.pricing-card{
+    background-color: #EEEEEE;
+    border-color: #393E46;
+    border-width: 3px;
+}
