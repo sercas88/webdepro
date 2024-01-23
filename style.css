@@ -75,3 +75,8 @@ h2{
       margin-top: 180px;
     }
 }
+.btn-secondary:hover{
+    background-color: #FFD369;
+    border-color: #FFD369;
+    color: #222831;
+}
