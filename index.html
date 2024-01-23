@@ -308,7 +308,7 @@
                     
                     <div class="col-sm-6">
                       <label for="name" class="form-label">Prénom et nom de famille</label>
-                      <input type="text" class="form-control" id="name" placeholder="" value="" required="">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="" value="" required="">
                       <div class="invalid-feedback">
                         Ton prénom et nom de famille sont requis.
                       </div>
@@ -316,7 +316,7 @@
         
                     <div class="col-12">
                       <label for="email" class="form-label">Adresse courriel</label>
-                      <input type="email" class="form-control" id="email" placeholder="nom@domaine.com" value="" required="">
+                      <input type="email" name="email" class="form-control" id="email" placeholder="nom@domaine.com" value="" required="">
                       <div class="invalid-feedback">
                         Ton adresse courriel est requise.
                       </div>
@@ -324,7 +324,8 @@
 
                     <div class="col-12">
                       <label for="message" class="form-label">Message</label>
-                      <input type="text" class="form-control" id="message" placeholder="Si tu as des questions ou commentaires.">
+                      <!-- <input type="text" name="message" class="form-control" id="message" placeholder="Si tu as des questions ou commentaires."> -->
+                      <textarea name="message" class="form-control" cols="30" rows="5"></textarea>
                       <div class="invalid-feedback">
                         Envoie-nous un message.
                       </div>
