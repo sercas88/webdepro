@@ -37,6 +37,9 @@ h2{
     color: #393E46;
     font-size: small;
 }
+.nav-link:hover{
+    color: #EEEEEE;
+}
 .card-link{
     color: #FFD369;
 }
