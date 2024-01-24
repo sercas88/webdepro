@@ -22,14 +22,16 @@
         </a>
         <ul class="nav nav-pills">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Menu</a>
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg></a>
             <ul class="dropdown-menu">
               <li class="nav-item"><a href="#about" class="nav-link">À propos</a></li>
-            <li class="nav-item"><a href="#fonctionnement" class="nav-link">Fonctionnement</a></li>
-            <li class="nav-item"><a href="#pricing" class="nav-link">Forfaits</a></li>
-            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+              <li class="nav-item"><a href="#fonctionnement" class="nav-link">Fonctionnement</a></li>
+              <li class="nav-item"><a href="#pricing" class="nav-link">Forfaits</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
           </li>
         </ul>
@@ -87,7 +89,7 @@
     <!-- Fonctionnement -->
     <section id="fonctionnement">
       <div class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom">Avec nous, c'est simple</h2>
+        <h2 class="pb-2 border-bottom">Avec nous, le processus est simple</h2>
     
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
   
@@ -95,7 +97,7 @@
             <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">1. Achète le service qui te convient</h3>
-                <p>Dès que le paiement sera effectué, un de nos professionnels te proposera un rdv virtuel de 60min maximum afin de cibler tes besoins.</p>
+                <p>Dès que le paiement sera effectué, un de nos professionnels te proposera un rdv virtuel de 60min maximum afin de cibler tes besoins. Tu veux aller de l'avant, mais tu préfères nous rencontrer d'abord, pas de problème envoie-nous un message.</p>
               </div>
             </div>
           </div>
@@ -113,7 +115,7 @@
             <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">3. Livraison de ton site web</h3>
-                <p>Nos délais de livraison sont de 3 à 5 jours normalement. vers la 2ème journée suivant la réception de toutes les infformations, nous t'enverrons une première version pour approbation.</p>
+                <p>Nos délais de livraison sont de 3 à 5 jours ouvrables normalement. vers la 2ème journée suivant la réception de toutes les infformations, nous t'enverrons une première version pour approbation.</p>
               </div>
             </div>
           </div>
@@ -309,7 +311,7 @@
                     <div class="col-sm-6">
                       <label for="name" class="form-label">Prénom et nom de famille</label>
                       <!-- <input type="text" name="name" class="form-control" id="name" placeholder="" value="" required=""> -->
-                      <input type="text" name="name" required class="form-control">
+                      <input type="text" name="name" required class="form-control" id="name" placeholder="" value="" required="">
                       <div class="invalid-feedback">
                         Ton prénom et nom de famille sont requis.
                       </div>
@@ -318,7 +320,7 @@
                     <div class="col-12">
                       <label for="email" class="form-label">Adresse courriel</label>
                       <!-- <input type="email" name="email" class="form-control" id="email" placeholder="nom@domaine.com" value="" required=""> -->
-                      <input type="email" name="email" required class="form-control">
+                      <input type="email" name="email" required class="form-control" id="email" placeholder="nom@domaine.com" value="" required="">
                       <div class="invalid-feedback">
                         Ton adresse courriel est requise.
                       </div>
@@ -327,7 +329,7 @@
                     <div class="col-12">
                       <label for="message" class="form-label">Message</label>
                       <!-- <input type="text" name="message" class="form-control" id="message" placeholder="Si tu as des questions ou commentaires."> -->
-                      <textarea name="message" class="form-control" cols="30" rows="5"></textarea>
+                      <textarea name="message" class="form-control" cols="30" rows="5" id="message" value="" required=""></textarea>
                       <div class="invalid-feedback">
                         Envoie-nous un message.
                       </div>
@@ -348,14 +350,22 @@
 
     <!--Footer-->
     <div class="container">
-        <footer class="pt-3 mt-4">
-          <p id="demo" class="text-center"></p>
-          <script>
-            const d = new Date();
-            let year = d.getFullYear();
-            document.getElementById("demo").innerHTML = "© " + year + ". Tous droits réservés";
-          </script>
-        </footer>
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">WP</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link px-2 text-body-secondary">À propos</a></li>
+          <li class="nav-item"><a href="#fonctionnement" class="nav-link px-2 text-body-secondary">Fonctionnement</a></li>
+          <li class="nav-item"><a href="#pricing" class="nav-link px-2 text-body-secondary">Forfaits</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link px-2 text-body-secondary">Services</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link px-2 text-body-secondary">Contact</a></li>
+        </ul>
+        <p id="demo" class="text-center"></p>
+        <script>
+          const d = new Date();
+          let year = d.getFullYear();
+          document.getElementById("demo").innerHTML = "© " + year + ". Tous droits réservés";
+        </script>
+      </footer>
     </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
