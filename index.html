@@ -5,10 +5,12 @@
         <title>Web de pro</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
         <link rel="stylesheet" href="./style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="./Assets/favicon_io/WP.ico">
     </head>
     
     <body class="body"> 
@@ -17,8 +19,8 @@
     <div class="container" id="header">
       <header class="fixed-top d-flex flex-wrap justify-content-center mb-1">
         <a href="#header" class="d-flex align-items-center mb-1  me-md-auto link-body-emphasis text-decoration-none">
-          <svg class="bi me-2" width="0" height="32"><use xlink:href="#bootstrap"></use></svg>
-          <span class="fs-4">WP</span>
+          <svg class="bi me-2" width="32" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4">WEB DE PRO</span>
         </a>
         <ul class="nav nav-pills">
           <li class="nav-item dropdown">
@@ -51,11 +53,11 @@
     <!-- À propos -->
     <section id="about">
       <div class="container px-4 py-5">
-        <h2 class="pb-2 border-bottom">Ce qui fait de nous des vrais pros</h2>
+        <h2 class="pb-2 border-bottom"><strong>Peu importe ton corps de métier, on connaît ta réalité</strong></h2>
     
         <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
           <div class="col d-flex flex-column align-items-start gap-2">
-            <img src="./Assets/Pictures/undraw_qa_engineers_dg-5-p copy.svg" alt="" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            <!-- <img src="./Assets/Pictures/undraw_qa_engineers_dg-5-p copy.svg" alt="" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> -->
             <!-- <img src="bootstrap-themes.png" > -->
             <!-- <h3 class="fw-bold text-body-emphasis"></h3>
             <p class="text-body-secondary"></p> -->
@@ -91,14 +93,14 @@
     <!-- Fonctionnement -->
     <section id="fonctionnement">
       <div class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom">Avec nous, le processus est simple</h2>
+        <h2 class="pb-2 border-bottom"><strong>Avec nous, le processus est simple</strong></h2>
     
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
   
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">1. Achète le service qui te convient</h3>
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">1. Achète le forfait qui te convient</h3>
                 <p>Dès que le paiement sera effectué, un de nos professionnels te proposera un rdv virtuel de 60min maximum afin de cibler tes besoins. Tu veux aller de l'avant, mais tu préfères nous rencontrer d'abord, pas de problème envoie-nous un message.</p>
               </div>
             </div>
@@ -132,41 +134,66 @@
       <div class="container py-5">
         <header>
           <div class="pricing-header p-3 pb-md-4 mx-auto">
-            <h2 class="pb-2 border-bottom">Nos forfaits</h2>
+            <h2 class="pb-2 border-bottom"><strong>Nos forfaits</strong></h2>
             <p class="fs-5 text-body-secondary">Nous te proposons une tarification simple et transparente. Si tu as d'autres idées en tête, nous voulons t'entendre.</p>
           </div>
         </header>
       
         <main>
-          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-            <div class="col">
-              <div class="pricing-card card mb-4 rounded-3 shadow-sm">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 mb-3 text-center">
+
+            <div class="col mb-3">
+              <div class="pricing-card card mb-4 rounded-3 shadow-sm h-100">
                 <div class="card-header py-3">
-                  <h3 class="my-0 fw-normal">Pro</h3>
+                  <h3 class="my-0 fw-normal">Débutant</h3>
                 </div>
-                <div class="card-body">
-                  <h2 class="card-title pricing-card-title">$249<small class="text-body-secondary fw-light">/mois</small></h2>
+                <div class="card-body d-flex flex-column">
+                  <h2 class="card-title pricing-card-title">$199<small class="text-body-secondary fw-light">/mois</small></h2>
                   <ul class="list-unstyled mt-3 mb-4">
                     <li>Conception Web et Graphique</li>
                     <li>Version mobile incluse</li>
                     <li>Optimiser Recherche Google</li>
                     <li>Hébergement dans les serveurs de Microsoft</li>
-                    <li>5 Heures de modification /  année</li>
-                    <li>3 Pages Incluses (exemple: accueil, portfolio et contact. Ou autre selon tes besoins.)</li>
+                    <li>1 Heure de modification /  année</li>
+                    <li>1 Page incluse</li>
+                    <li>.</li>
+                    <li>.</li>
+                    <li>.</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-secondary mt-auto">Acheter</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-3">
+              <div class="pricing-card card mb-4 rounded-3 shadow-sm h-100">
+                <div class="card-header py-3">
+                  <h3 class="my-0 fw-normal">Pro</h3>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <h2 class="card-title pricing-card-title">$249<small class="text-body-secondary fw-light">/mois</small></h2>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li class="plan">Conception Web et Graphique</li>
+                    <li class="plan">Version mobile incluse</li>
+                    <li class="plan">Optimiser Recherche Google</li>
+                    <li class="plan">Hébergement dans les serveurs de Microsoft</li>
+                    <li>5 Heures de modifications /  année</li>
+                    <li>3 Pages incluses (exemple: accueil, portfolio et contact. Ou autre selon tes besoins.)</li>
                     <li>Contenu professionnel optimisé SEO</li>
                     <li>.</li>
                     <li>.</li>
                   </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-secondary">Acheter</button>
+                  <button type="button" class="w-100 btn btn-lg btn-secondary mt-auto">Acheter</button>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="pricing-card card mb-4 rounded-3 shadow-sm">
+
+            <div class="col mb-3">
+              <div class="pricing-card card mb-4 rounded-3 shadow-sm h-100">
                 <div class="card-header py-3">
                   <h3 class="my-0 fw-normal">Expert</h3>
                 </div>
-                <div class="card-body">
+                <div class="card-body d-flex flex-column">
                   <h2 class="card-title pricing-card-title">$399<small class="text-body-secondary fw-light">/mois</small></h2>
                   <ul class="list-unstyled mt-3 mb-4">
                     <li class="plan">Conception Web et Graphique</li>
@@ -174,21 +201,22 @@
                     <li class="plan">Optimiser Recherche Google</li>
                     <li class="plan">Hébergement dans les serveurs de Microsoft</li>
                     <li><strong>10 Heures</strong> de modifications / année</li>
-                    <li><strong>5 Pages Incluses</strong> (exemple: accueil, portfolio, contact, services et à propos)</li>
+                    <li><strong>5 Pages incluses</strong> (exemple: accueil, portfolio, contact, services et à propos)</li>
                     <li class="plan">Contenu professionnel optimisé SEO</li>
                     <li><strong>Optimisation pour 3 mots-clés</strong></li>
                     <li><strong>Optimisation Google (trimestre)</strong></li>
                   </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-secondary">Acheter</button>
+                  <button type="button" class="w-100 btn btn-lg btn-secondary mt-auto">Acheter</button>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="pricing-card card mb-4 rounded-3 shadow-sm">
+
+            <div class="col mb-3">
+              <div class="pricing-card card mb-4 rounded-3 shadow-sm h-100">
                 <div class="card-header py-3">
                   <h3 class="my-0 fw-normal">Platinum</h3>
                 </div>
-                <div class="card-body">
+                <div class="card-body d-flex flex-column">
                   <h2 class="card-title pricing-card-title">$499<small class="text-body-secondary fw-light">/mois</small></h2>
                   <ul class="list-unstyled mt-3 mb-4">
                     <li class="plan">Conception Web et Graphique</li>
@@ -196,27 +224,24 @@
                     <li class="plan">Optimiser Recherche Google</li>
                     <li class="plan">Hébergement dans les serveurs de Microsoft</li>
                     <li><strong>15 Heures</strong> de modifications / année</li>
-                    <li><strong>7 Pages Incluses (ex: accueil, portfolio, contact, services, à propos, nouvelles et équipe)</strong></li>
+                    <li><strong>7 Pages incluses</strong> (ex: accueil, portfolio, contact, services, à propos, nouvelles et équipe)</li>
                     <li class="plan">Contenu professionnel optimisé SEO</li>
                     <li><strong>Optimisation pour 6 mots-clés</strong></li>
                     <li><strong>Optimisation Google (mois)</strong></li>
                   </ul>
-                  <button type="button" class="w-100 btn btn-lg btn-secondary">Acheter</button>
+                  <button type="button" class="w-100 btn btn-lg btn-secondary mt-auto">Acheter</button>
                 </div>
               </div>
             </div>
           </div>
-
-          <header>
-            <div class="pricing-header p-3 pb-md-4 mx-auto">
-              <h2 class="pb-2 border-bottom">Suppléments à la carte</h2>
-              
-            </div>
-          </header>
+          
+          <!-- Suppléments à la carte -->
+          <div class="p-3 pb-md-4 mx-auto" id="accordion">
+            <h3 class="pb-2 border-bottom">Suppléments à la carte</h3>
+          </div>
 
           <div class="row row-cols-1 row-cols-md-2 align-items-md-center px-3">
             <!-- <p class="fs-5 text-body-secondary">Tu as des besoins plus vastes que nos forfaits de base? <br>Nous nous adaptons!</p> -->
-
             <ul>
               <li><strong>Achat de nom de domaine.</strong> Si tu as déjà un nom de domaine, nous le transférerons. Sinon, tout s'achète.</li>
               <li><strong>Site web multilingue.</strong> Pour les polyglothes.</li>
@@ -230,17 +255,53 @@
               <li><strong>Tu viens de partir ta business et tu as besoin d'un accompagnement complet.</strong> Nos experts vont t'aider.</li>
             </ul>
             <div class="col d-flex flex-column align-items-start gap-2">
-              <img src="./Assets/Pictures/undraw_connected_world_wuay copy.svg" alt="" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              <img src="./Assets/Pictures/Undraw/undraw_connected_world_wuay copy.svg" alt="" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
             </div>
           </div>
         </main>
       </div>
     </section>
 
+    <!-- Carousel 1 -->
+    <!-- <div id="myCarousel1" class="carousel slide mb-6 container-fluid px-0" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="./Assets/Pictures/jesse-orrico-P6IqUKhatuM-unsplash.jpg" class="bd-placeholder-img img-fluid" width="100%" height="50%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></img>
+          <div class="container">
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="./Assets/Pictures/shraga-kopstein-DRHNSSZquOA-unsplash.jpg" class="bd-placeholder-img" width="100%" height="50%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></img>
+          <div class="container">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/Pictures/greyson-joralemon-A1g0oeX29ec-unsplash.jpg" class="bd-placeholder-img" width="100%" height="50%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></img>
+          <div class="container">
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> -->
+
     <!-- Services -->
     <section id="services">
       <div class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom">Nos services</h2>
+        <h2 class="pb-2 border-bottom"><strong>Nos services</strong></h2>
     
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
   
@@ -254,7 +315,7 @@
           </div>
     
           <div class="col">
-            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Portfolio Dynamique</h3>
                 <p>Mets de l'avant tes projets de construction avec une présentation visuelle percutante.</p>
@@ -263,7 +324,7 @@
           </div>
   
           <div class="col">
-            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">SEO Stratégique</h3>
                 <p>Optimise ta visibilité en ligne pour attirer de nouveaux clients. Si tu n'as aucune idée de ce que signifie SEO, ne t'inquiète pas, c'est notre travail, et tu es entre de bonnes mains.</p>
@@ -272,7 +333,7 @@
           </div>
   
           <div class="col">
-            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Gestion de compte LinkedIn</h3>
                 <p>Tu n'as pas le temps de gérer ton compte LinkedIn et d'afficher du contenu pertinent? Fais confiance à notre équipe de pro.</p>
@@ -281,7 +342,7 @@
           </div>
   
           <div class="col">
-            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Rédaction de contenu</h3>
                 <p>Si tu as de la misère à écrire un beau paragraphe avec une syntaxe et une orthographe impéccables, nous sommes là pour t'aider.</p>
@@ -290,7 +351,7 @@
           </div>
   
           <div class="col">
-            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+            <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 text-white text-shadow-1">
                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Photo, vidéo</h3>
                 <p>Tu es fier de ton travail, mais tes photos ne rendent pas hommage à tes efforts? Nous pouvons t'aider.</p>
@@ -308,15 +369,15 @@
         <div class="container py-5">
           <main>
             <div class="py-5">
-              <h2 class="pb-2 border-bottom">Pour nous rejoindre</h2>
+              <h2 class="pb-2 border-bottom"><strong>Pour nous rejoindre</strong></h2>
             </div>
         
-            <div class="row align-items-center g-5 justify-content-end">
+            <div class="row align-items-center g-5 justify-content-start">
               <div class="col-md-g col-lg-6">
                 <form action="https://formsubmit.co/b1401d328cba1624d7625b52cf417f78" method="post" class="needs-validation" novalidate="">
                   <div class="row g-3">
                     
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                       <label for="name" class="form-label">Prénom et nom de famille</label>
                       <!-- <input type="text" name="name" class="form-control" id="name" placeholder="" value="" required=""> -->
                       <input type="text" name="name" required class="form-control" id="name" placeholder="" value="" required="">
@@ -356,6 +417,42 @@
         </div>
     </section>
 
+    <!-- Carousel 2-->
+    <div id="myCarousel" class="carousel slide mb-6 container-fluid px-0" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="./Assets/Pictures/guillaume-techer-XvNPUh6fWVk-unsplash (1).jpg" class="bd-placeholder-img img-fluid" width="100%" height="50%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></img>
+          <div class="container">
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="./Assets/Pictures/christopher-burns-8KfCR12oeUM-unsplash.jpg" class="bd-placeholder-img" width="100%" height="50%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></img>
+          <div class="container">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Assets/Pictures/scott-blake-x-ghf9LjrVg-unsplash.jpg" class="bd-placeholder-img" width="100%" height="50%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></img>
+          <div class="container">
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
     <!--Footer-->
     <div class="container">
       <footer class="py-3 my-4">
