@@ -41,6 +41,9 @@ h2{
 .nav-link:hover{
     color: #EEEEEE;
 }
+.dropdown-menu{
+    background-color: #EEEEEE;
+}
 .card-link{
     color: #FFD369;
 }
