@@ -31,8 +31,20 @@ h1{
 h2{
     color: #222831;
 }
-.display-1 {
+/* .display-1 {
     font-size: 7rem;
+} */
+@media (max-width: 2000px) {
+    /* CSS for screens below or equal to 600px wide */
+    .display-1 {
+        font-size: 8rem;
+    }
+}
+@media (max-width: 540px) {
+    /* CSS for screens below or equal to 600px wide */
+    .display-1 {
+        font-size: 6rem;
+    }
 }
 .nav-link{
     color: #393E46;
