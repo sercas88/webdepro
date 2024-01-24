@@ -31,17 +31,12 @@ h1{
 h2{
     color: #222831;
 }
-/* .display-1 {
-    font-size: 7rem;
-} */
 @media (max-width: 2000px) {
-    /* CSS for screens below or equal to 600px wide */
     .display-1 {
         font-size: 8rem;
     }
 }
 @media (max-width: 540px) {
-    /* CSS for screens below or equal to 600px wide */
     .display-1 {
         font-size: 6rem;
     }
@@ -56,16 +51,9 @@ h2{
 .dropdown-menu{
     background-color: #EEEEEE;
 }
-.card-link{
-    color: #FFD369;
-}
 .slogan{
     color: #393E46;
 }
-/* .top{
-    display: grid;
-    place-items: center;
-} */
 #about{
     background-color: #EEEEEE;
 }
@@ -101,4 +89,14 @@ h2{
 }
 #contact{
     background-color: #EEEEEE;
+}
+#myCarousel1 {
+    max-height: 300px;
+    max-width: 100%;
+    overflow:hidden
+}
+#myCarousel {
+    max-height: 600px;
+    max-width: 100%;
+    overflow:hidden
 }
