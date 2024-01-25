@@ -32,13 +32,13 @@ h2{
     color: #222831;
 }
 @media (max-width: 2000px) {
-    .display-1 {
+    .display {
         font-size: 8rem;
     }
 }
-@media (max-width: 540px) {
-    .display-1 {
-        font-size: 6rem;
+@media (max-width: 600px) {
+    .display {
+        font-size: 100px;
     }
 }
 .nav-link{
@@ -82,11 +82,6 @@ h2{
       margin-top: 180px;
     }
 }
-.btn-secondary:hover{
-    background-color: #FFD369;
-    border-color: #FFD369;
-    color: #222831;
-}
 .CTO{
     background-color: #393E46;
     border-color: #FFD369;
@@ -98,6 +93,30 @@ h2{
     background-color: #FFD369;
     border-color: #222831;
     color: #222831;
+}
+.CTO2{
+    background-color: #FFD369;
+    border-color: #FFD369;
+    color: #222831;
+    font-weight: 400;
+    filter: drop-shadow(1px 1px 1px #222831);
+}
+.CTO2:hover{
+    background-color: #393E46;
+    border-color: #FFD369;
+    color: #EEEEEE;
+}
+.CTO3{
+    background-color: #FFD369;
+    border-color: #FFD369;
+    color: #222831;
+    font-weight: 400;
+    filter: drop-shadow(1px 1px 1px #393E46);
+}
+.CTO3:hover{
+    background-color: #393E46;
+    border-color: #FFD369;
+    color: #EEEEEE;
 }
 #contact{
     background-color: #EEEEEE;
