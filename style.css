@@ -131,3 +131,6 @@ h2{
     max-width: 100%;
     overflow:hidden
 }
+.logo{
+    filter: drop-shadow(2px 5px 5px #393E46);
+}
