@@ -336,7 +336,8 @@
         
             <div class="row align-items-center g-5 justify-content-start">
               <div class="col-md-g col-lg-6">
-                <form action="/success.html" method="POST" class="needs-validation" novalidate name="contact" data-netlify="true">
+                <form action="/success.html" method="POST" class="needs-validation" novalidate name="contact" data-netlify="true" onSubmimt="submit" data-netlify-honeypot="bot-field">
+                  <input class="d-none" name="bot-field">
                   <div class="row g-3">
                     
                     <div class="col-sm-12">
@@ -350,9 +351,6 @@
                     <div class="col-sm-12">
                       <label for="name2" class="form-label">Nom d'entreprise</label>
                       <input type="text" name="name2" class="form-control" id="name2" placeholder="" value="" required>
-                      <div class="invalid-feedback">
-                        Le nom de ton entreprise est requis.
-                      </div>
                     </div>
         
                     <div class="col-12">
