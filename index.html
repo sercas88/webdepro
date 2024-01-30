@@ -336,20 +336,28 @@
         
             <div class="row align-items-center g-5 justify-content-start">
               <div class="col-md-g col-lg-6">
-                <form action="https://formsubmit.co/b1401d328cba1624d7625b52cf417f78" method="post" class="needs-validation" novalidate="">
+                <form action="/success.html" method="POST" class="needs-validation" novalidate name="contact" data-netlify="true">
                   <div class="row g-3">
                     
                     <div class="col-sm-12">
                       <label for="name" class="form-label">Prénom et nom de famille</label>
-                      <input type="text" name="name" required class="form-control" id="name" placeholder="" value="" required="">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="" value="" required>
                       <div class="invalid-feedback">
                         Ton prénom et nom de famille sont requis.
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12">
+                      <label for="name2" class="form-label">Nom d'entreprise</label>
+                      <input type="text" name="name2" class="form-control" id="name2" placeholder="" value="" required>
+                      <div class="invalid-feedback">
+                        Le nom de ton entreprise est requis.
                       </div>
                     </div>
         
                     <div class="col-12">
                       <label for="email" class="form-label">Adresse courriel</label>
-                      <input type="email" name="email" required class="form-control" id="email" placeholder="nom@domaine.com" value="" required="">
+                      <input type="email" name="email" class="form-control" id="email" placeholder="nom@domaine.com" value="" required>
                       <div class="invalid-feedback">
                         Ton adresse courriel est requise.
                       </div>
@@ -357,7 +365,7 @@
 
                     <div class="col-12">
                       <label for="message" class="form-label">Message</label>
-                      <textarea name="message" class="form-control" cols="30" rows="5" id="message" value="" required=""></textarea>
+                      <textarea name="message" class="form-control" cols="30" rows="5" id="message" value="" required></textarea>
                       <div class="invalid-feedback">
                         Envoie-nous un message.
                       </div>
