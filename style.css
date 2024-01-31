@@ -155,3 +155,21 @@ h2{
 .logo{
     filter: drop-shadow(2px 5px 5px #393E46);
 }
+
+.accordion-button:not(.collapsed) {
+    background-color: #EEEEEE !important;
+}
+.accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
+    background-color: #393E46 !important;
+    color:#ffffff !important;
+    text-decoration: none !important;
+    border: #222831 !important;
+    border-color: #222831 !important;
+    box-shadow: 0px !important;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #EEEEEE !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #FFF !important;
+}
