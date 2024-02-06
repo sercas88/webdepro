@@ -163,7 +163,7 @@
                     <li>1 Heure de modification /  année</li>
                     <li>1 Page incluse</li>
                     <hr>
-                    <!-- <a href="" type="button" class="w-50 mt-auto ctoExemple text-decoration-none">Voir un exemple</a> -->
+                    <a href="/Themes/Debutant/index.html" type="button" class="w-50 mt-auto ctoExemple text-decoration-none">Voir un exemple</a>
                   </ul>
                   <a href="https://buy.stripe.com/8wM1541Bs3Rw1mU5kk" type="button" class="w-100 btn btn-lg btn-secondary mt-auto CTO3 Debutant">Acheter</a>
                 </div>
@@ -185,10 +185,10 @@
                     <li class="plan">Optimiser Recherche Google</li>
                     <li class="plan">Hébergement du site web</li>
                     <li>5 Heures de modifications /  année</li>
-                    <li>3 Pages incluses (exemple: accueil, services et contact. Ou autre selon tes besoins.)</li>
+                    <li>3 Pages incluses (exemple: accueil, services et portfolio. Ou autre selon tes besoins.)</li>
                     <li>Contenu professionnel optimisé SEO</li>
                     <hr>
-                    <!-- <a href="" type="button" class="w-50 mt-auto ctoExemple text-decoration-none">Voir un exemple</a> -->
+                    <a href="/Themes/Pro/index.html" type="button" class="w-50 mt-auto ctoExemple text-decoration-none">Voir un exemple</a>
                   </ul>
                   <a href="https://buy.stripe.com/6oE8xwa7YbjYd5C145" type="button" class="w-100 btn btn-lg btn-secondary mt-auto CTO3 Pro">Acheter</a>
                 </div>
@@ -215,7 +215,7 @@
                     <li><strong>Optimisation pour 3 mots-clés</strong></li>
                     <li><strong>Optimisation Google (trimestre)</strong></li>
                     <hr>
-                    <!-- <a href="" type="button" class="w-50 mt-auto ctoExemple text-decoration-none">Voir un exemple</a> -->
+                    <a href="./Themes/Expert/index.html" type="button" class="w-50 mt-auto ctoExemple text-decoration-none">Voir un exemple</a>
                   </ul>
                   <a href="https://buy.stripe.com/7sI298gwm4VAd5C8wy" type="button" class="w-100 btn btn-lg btn-secondary mt-auto CTO3 Expert">Acheter</a>
                 </div>
@@ -242,7 +242,7 @@
                     <li><strong>Optimisation pour 6 mots-clés</strong></li>
                     <li><strong>Optimisation Google (mois)</strong></li>
                     <hr>
-                    <!-- <a href="" type="button" class="w-50 mt-auto ctoExemple text-decoration-none">Voir un exemple</a> -->
+                    <a href="./Themes/Platinum/index.html" type="button" class="w-50 mt-auto ctoExemple text-decoration-none">Voir un exemple</a>
                   </ul>
                   <a href="https://buy.stripe.com/cN23dc4NEgEi7LiaEH" type="button" class="w-100 btn btn-lg btn-secondary mt-auto CTO3 Platinum">Acheter</a>
                 </div>
@@ -274,28 +274,6 @@
               </div>
             </div>
           </div>
-
-          <!-- <div class="p-3 pb-md-4 mx-auto" id="accordion">
-            <h3 class="pb-2 border-bottom">Autres services, à la carte</h3>
-          </div>
-
-          <div class="row row-cols-1 row-cols-md-2 align-items-md-center px-3">
-            <ul>
-              <li><strong>Achat de nom de domaine.</strong> Si tu as déjà un nom de domaine, nous le transférerons. Sinon, tout s'achète.</li>
-              <li><strong>Site web multilingue.</strong> Pour les polyglothes.</li>
-              <li><strong>Photos professionnelles</strong> avec des vrais appareils photo de pro, pas de petits téléphones intelligents.</li>
-              <li><strong>Création de logo d'entreprise.</strong></li>
-              <li><strong>Refonte de site web.</strong> Tu as déjà un site web, mais tu le trouves lais ou pas à jour? On s'en occupe!</li>
-              <li><strong>Cartes d'affaire.</strong> Nous aussi aimons le bon vieux carton des cartes d'affaire. Si tu veux qu'on s'en occupe, on s'en occupe.</li>
-              <li><strong>Fonctionnalités avancées.</strong> Tes besoins, tes idées, nous les réalisons.</li>
-              <li><strong>Site web transactionnel.</strong> Si tu veux faire payer tes clients directement dans ton site web.</li>
-              <li><strong>Squarespace, Shopify, Wix...</strong> Si tu veux qu'on fasse ton site web sur ces plateformes, pas de problème!</li>
-              <li><strong>Tu viens de partir ta business et tu as besoin d'un accompagnement complet.</strong> Nos experts vont t'aider.</li>
-            </ul>
-            <div class="col d-flex flex-column align-items-start gap-2">
-              <img src="./Assets/Pictures/Undraw/undraw_connected_world_wuay copy.svg" alt="" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-            </div>
-          </div> -->
       </div>
     </section>
 
@@ -380,22 +358,35 @@
                   <input class="d-none" name="bot-field">
                   <div class="row g-3">
                     
-                    <div class="col-sm-12">
-                      <label for="name" class="form-label">Prénom et nom de famille</label>
-                      <input type="text" name="name" class="form-control" id="name" placeholder="" value="" required>
+                    <div class="col-sm-6">
+                      <label for="name" class="form-label">Prénom</label>
+                      <input autocomplete="given-name" type="text" name="name" class="form-control" id="name" placeholder="" value="" required="">
                       <div class="invalid-feedback">
-                        Ton prénom et nom de famille sont requis.
+                        Prénom est requis.
+                      </div>
+                    </div>
+    
+                    <div class="col-sm-6">
+                      <label for="lastName" class="form-label">Nom de famille</label>
+                      <input autocomplete="family-name" type="text" name="lastName" class="form-control" id="lastName" placeholder="" value="" required="">
+                      <div class="invalid-feedback">
+                        Nom de famille requis.
                       </div>
                     </div>
 
-                    <div class="col-sm-12">
+                    <div class="col-sm-6">
+                      <label for="phone" class="form-label">Numéro de téléphone</label>
+                      <input autocomplete="phone" type="text" name="telephone" class="form-control" id="phone" placeholder="" value="" required="">
+                    </div>
+
+                    <div class="col-sm-6">
                       <label for="name2" class="form-label">Nom d'entreprise</label>
                       <input type="text" name="name2" class="form-control" id="name2" placeholder="" value="" required>
                     </div>
         
                     <div class="col-12">
                       <label for="email" class="form-label">Adresse courriel</label>
-                      <input type="email" name="email" class="form-control" id="email" placeholder="nom@domaine.com" value="" required>
+                      <input autocomplete="email" type="email" name="email" class="form-control" id="email" placeholder="nom@domaine.com" value="" required>
                       <div class="invalid-feedback">
                         Ton adresse courriel est requise.
                       </div>

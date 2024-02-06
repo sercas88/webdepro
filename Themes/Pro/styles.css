@@ -1,0 +1,243 @@
+.hero-background-overlay {
+    background-color: #49546480;
+}
+.hero-background-overlay2 {
+    background-color: #49546480;
+    width: 100%;
+    height: 50vh;
+}
+#hero{
+    width: 100%;
+    height: 50vh;
+}
+.wdepro{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #495464;
+}
+#about {
+    background-color: #F4F4F2;
+}
+#service1 {
+    background-color: white;
+}
+#service2 {
+    background-color: white;
+}
+#service3 {
+    background-color: white;
+}
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+.card{
+    border: 0px;
+}
+.services{
+    background-color: #E8E8E8;
+}
+#featured-3{
+    background-color: #F4F4F2;
+}
+#body {
+    background-color: #E8E8E8;
+}
+.footer{
+    background-color: #E8E8E8;
+}
+.gallery {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+.portfolio{
+    background-color: #E8E8E8;
+}
+#contact{
+    background-color: #F4F4F2;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #495464;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #495464;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #495464;
+}
+h4{
+    font-family: 'Raleway', sans-serif;
+    color: #495464;
+}
+h5{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #495464;
+}
+h6{
+    font-family: 'Raleway', sans-serif;
+    color: #BBBFCA;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+}
+.form-label{
+    color: grey;
+}
+.btn {
+    color: #495464;
+    transition: all 0.3s;
+    position: relative;
+    background-color: white;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+.btn::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #F66B0E50;
+    border-bottom-color: #F66B0E50;
+    transform: scale(0.1, 1);
+}
+.btn:hover::before {
+    opacity: 1; 
+    transform: scale(1, 1);
+    background-color: #ffffff50;
+    color: #495464;
+}
+.btn::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: #ffffff50;
+    color: #495464;
+}
+.btn:hover::after {
+    opacity: 0; 
+    transform: scale(0.1, 1);
+    background-color: #ffffff50;
+    color: #495464;
+}
+.btn:hover {
+    color: #495464;
+    background-color: #ddd;
+}
+.btn:active, .btn:focus {
+    border-width: 0px !important;
+}
+.nav-link{
+    color: #495464;
+}
+.btn-nav {
+    color: #495464;
+    transition: all 0.3s;
+    position: relative;
+    background-color: white;
+    border-color: #0D9276;
+    border-width: 1px;
+}
+.btn-nav::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: white;
+    border-bottom-color: white;
+    transform: scale(0.1, 1);
+}
+.btn-nav:hover::before {
+    opacity: 1; 
+    transform: scale(1, 1);
+    background-color: #ffffff50;
+    color: white;
+}
+.btn-nav::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    color: white;
+    border-color: #495464;
+}
+.btn-nav:hover::after {
+    opacity: 0; 
+    transform: scale(0.1, 1);
+    background-color: #ffffff50;
+    color: white;
+    background-color: #0D9276;
+    border-color: #0D9276;
+}
+.btn-nav:hover {
+    color: white;
+    background-color: #0D9276;
+    border-color: #0D9276;
+}
+.btn-nav:active, .btn-nav:focus {
+    border-color: none !important;
+    outline: none !important;
+    border-width: 0px !important;
+}
+.modal-content  {
+    border-radius: 0px !important;
+}
+.modal-body {
+    padding: 2px;
+    text-align: left;
+}
+.modal-body img {
+    min-width:100%;
+    max-height:900px;
+}
+.imgServices {
+    height: 500px;
+    width: 100%;
+}
+.imgWrapper {
+    height: 500px;
+    width: 30rem;
+}
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
