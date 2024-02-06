@@ -82,73 +82,96 @@ h2{
       margin-top: 180px;
     }
 }
-.CTO{
+.CTA{
     background-color: #393E46;
     border-color: #FFD369;
     color: #FFD369;
     font-weight: 400;
     filter: drop-shadow(1px 2px 2px #393E46);
 }
-.CTO:hover{
+.CTA:hover{
     background-color: #FFD369;
     border-color: #222831;
     color: #222831;
 }
-.CTO2{
+.CTA2{
     background-color: #FFD369;
     border-color: #FFD369;
     color: #222831;
     font-weight: 400;
     filter: drop-shadow(1px 1px 1px #222831);
 }
-.CTO2:hover{
+.CTA2:hover{
     background-color: #393E46;
     border-color: #FFD369;
     color: #EEEEEE;
 }
-.ctoExemple{
+.CTA3{
+    background-color: #FFD369;
+    border-color: #393E46;
+    color: #393E46;
+    font-weight: 400;
+    filter: drop-shadow(1px 2px 2px #393E46);
+}
+.CTA3:hover{
+    background-color: #393E46;
+    border-color: #393E46;
+    color: #FFD369;
+}
+.CTA4{
+    background-color: #FFD369;
+    border-color: #393E46;
+    color: #393E46;
+    font-weight: 400;
+    filter: drop-shadow(1px 2px 2px #393E46);
+}
+.CTA4:hover{
+    background-color: #393E46;
+    border-color: #393E46;
+    color: #FFD369;
+}
+.ctaExemple{
     background-color: #EEEEEE;
     border-color: #393E46;
     color: #393E46;
     font-weight: 400;
 }
-.ctoExemple:hover{
+.ctaExemple:hover{
     background-color: #393E4650;
     border-color: #393E46;
-    
 }
-.Debutant{
+.ctaForfaits:hover {
+    background-color: #03C988;
+    border-color: #222831;
+    color: #222831;
+}
+.ctaDebutant{
     background-color: #FFFFFF;
     border-color: #222831;
     color: #222831;
     font-weight: 400;
     filter: drop-shadow(1px 1px 1px #393E46);
 }
-.Pro{
+.ctaPro{
     background-color: #E5CEC1;
     border-color: #222831;
     color: #222831;
     font-weight: 400;
     filter: drop-shadow(1px 1px 1px #393E46);
 }
-.Expert{
+.ctaExpert{
     background-color: rgb(180, 178, 178);
     border-color: #222831;
     color: #222831;
     font-weight: 400;
     filter: drop-shadow(1px 1px 1px #393E46);
 }
-.Platinum{
+.ctaPlatinum{
     background-color: #FFD369;
     border-color: #222831;
     color: #222831;
     font-weight: 400;
     filter: drop-shadow(1px 1px 1px #393E46);
-}
-.CTO3:hover{
-    background-color: #03C988;
-    border-color: #03C988;
-    color: #222831;
 }
 #contact{
     background-color: #EEEEEE;
