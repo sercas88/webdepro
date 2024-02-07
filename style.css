@@ -31,7 +31,7 @@ h1{
 h2{
     color: #222831;
 }
-@media (max-width: 2000px) {
+@media (max-width: 3000px) {
     .display {
         font-size: 8rem;
     }
